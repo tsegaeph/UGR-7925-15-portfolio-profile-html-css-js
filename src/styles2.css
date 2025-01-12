@@ -742,12 +742,12 @@ footer a:hover {
         top: 10px;
     }
     .contact .input-group .input-box input{
-        width: 350px;
+        width: 400px;
         height: 60px;
         font-size: 1rem;
     }
     .contact .input-group-2 textarea{
-        width: 350px;
+        width: 400px;
         margin: 50px 0px 30px 30px;
         font-size: 1.2rem;
     }
