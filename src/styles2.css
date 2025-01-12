@@ -661,7 +661,6 @@ footer a:hover {
         display: flex;
         margin-left: 30px;
         margin-bottom: 70px
-        width: 100%;
     }
 
     .right .button a {
@@ -756,7 +755,6 @@ footer a:hover {
         margin-left: 60%;
     }
 
-}
 
 /* Phone landscape*/
 @media (min-width: 768px) and (max-width: 1024px){
@@ -995,5 +993,5 @@ footer a:hover {
         top: 10px;
     }
 
-}
+}}
 
