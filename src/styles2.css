@@ -84,8 +84,8 @@ body{
     display: none; /* Hide on larger screens */
     flex-direction: column;
     justify-content: space-between;
-    width: 40px;
-    height: 30px;
+    width: 30px;
+    height: 25px;
     cursor: pointer;
 }
 
@@ -112,8 +112,8 @@ body{
     position: fixed;
     top: 0;
     right: 0;
-    width: 250px;
-    height: 450px;
+    width: 150px;
+    height: 350px;
     background-color:var(--main-color);
     transform: translateX(100%);
     transition: transform 0.3s ease-in-out;
@@ -138,7 +138,7 @@ body{
   .mobile-menu a {
     color: #fff;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 20px;
   }
 
@@ -148,7 +148,7 @@ body{
     right: 10px;
     color: #fff;
     cursor: pointer;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 500;
   }
 section{
@@ -585,15 +585,15 @@ footer a:hover {
 
 /* Phone portrait styling*/
 
-@media (min-width:400px) and (max-width: 767px){
+@media (min-width:350px) and (max-width: 767px){
     section main{
         width: 100%;
     }
     .nav-container{
-        column-gap: 57%;
+        column-gap: 52%;
     }
     .nav-container .logo{
-        font-size: 3rem;
+        font-size: 2rem;
     }
     section .main-container{
         display: block;
@@ -615,8 +615,8 @@ footer a:hover {
     }
     
     .main-container .image{
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
         margin: 0 auto;
         margin-top: 80px;    
     }
@@ -625,20 +625,20 @@ footer a:hover {
         width: 85%;
     }
     .content .typewriter,h1{
-        margin-left: 100px;
+        margin-left: 30px;
     }
     .main-container .content p{
-        font-size: 22px;
+        font-size: 16px;
         font-weight: 200;
         text-align:justify;
     }
     .social-links{
-        margin: 50px 0 50px 50px;
+        margin: 50px 0 50px 10px;
     }
     .social-links i{
-        width: 51px;
-        height: 51px;
-        font-size: 2rem;
+        width: 41px;
+        height: 45px;
+        font-size: 1.5rem;
     }
     
     .about .about-details{
@@ -654,17 +654,18 @@ footer a:hover {
         width: 100%;
     }
     .right p{
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 200;
     }
     .right .button {
         display: flex;
-        justify-content: center;
+        margin-left: 30px;
+        margin-bottom: 70px
         width: 100%;
     }
 
     .right .button a {
-        width: 200px; 
+        width: 180px; 
     }
     .about .about-details .left img{
         display: block;
@@ -683,10 +684,11 @@ footer a:hover {
         margin-bottom: 50px;
     }
     .skills-details .text p{
-       font-size: 20px;
+       font-size: 16px;
        font-weight: 200;
     }
     .skills-details .boxes{
+        margin-bottom: 60px;
         justify-content: space-evenly;
         align-items: center;
         width: 120%;
@@ -697,57 +699,60 @@ footer a:hover {
         display: block;
     }
     .projects .boxes .box{
+        width:300px;
         margin: 70px auto;
-        height: 400px;
+        height: 450px;
     }
     .projects .boxes .box .topic{
-        font-size: 30px;
+        font-size: 25px;
     }
     .projects .boxes .box p{
-        font-size: 25px;
+        font-size: 16px;
         font-weight: 200;
     }
+    .hobbies p{
+        margin-top: 50px;
+        font-size: 16px;
     .slide {
         max-width: 45%;
-
     }
     .slider {
         width: 100%;
-        height: 500px;
+        height:350px;
     }
     .slides{
         gap: 20px;
     }
     .slide img.enlarged {
-        transform: scale(1.7);
+        transform: scale(2.3);
     }
     .prev, .next {
-        font-size: 10px; 
-        width: 20px; 
-        height: 20px;
+        font-size: 14px; 
+        width: 25px; 
+        height: 25px;
 
     }
     .contact form{
         display: block;
-        margin-left: 30px;
-        width: 300px;
+        margin-left: 10px;
+        width: 200px;
     }
     .contact .input-group .input-box{
         position: relative;
         top: 10px;
     }
     .contact .input-group .input-box input{
-        width: 500px;
-        height: 80px;
-        font-size: 1.2rem;
+        width: 350px;
+        height: 60px;
+        font-size: 1rem;
     }
     .contact .input-group-2 textarea{
-        width: 600px;
+        width: 350px;
         margin: 50px 0px 30px 30px;
         font-size: 1.2rem;
     }
     .input-group-2 .btn{
-        margin-left: 70%;
+        margin-left: 60%;
     }
 
 }
@@ -810,18 +815,18 @@ footer a:hover {
     .slider {
         width: 100%;
     }
-    .projects .boxes{
-        gap: 25px;
+    .projects .boxes .box{
+        width: 300px;
     }
     
 }
 /*Tablet portrait*/
 @media (min-width: 1025px) and (max-width:1300px){
     .nav-container{
-        column-gap: 75%;
+        column-gap: 65%;
     }
     .nav-container .logo{
-        font-size: 3.5rem;
+        font-size: 3rem;
         margin-left: 5%;
     }
     section .main-container{
