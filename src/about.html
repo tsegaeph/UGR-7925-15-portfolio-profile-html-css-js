@@ -3,58 +3,62 @@
     <head>
         <meta charset="UTF-8">
         <title>Tsega Ephrem</title>
-        <link rel="icon" href="/images/T.png" type="image/x-icon">
-        
+        <link rel="icon" href="/src/images/T.png" type="image/x-icon">
+        <link rel="stylesheet" href="../src/styles2.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" >
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <!--navigation menu-->
-      <header>
-        <nav>
-            <div>
-                <div>
-                  <span>Tsega</span>
-                </div>
-                <div>
-                  <div><a href="home.html">Home</a></div>
-                  <div><a href="about.html">About</a></div>
-                  <div><a href="skills.html">Skills</a></div>
-                  <div><a href="projects.html">Projects</a></div>
-                  <div><a href="hobbies..html">Hobbies</a></div>
-                  <div><a href="contact.html">Contact</a></div>
+        <header>
+          <div class="nav-container">
+              <div class="logo">
+                <span>Tsega</span>
+              </div>
+              <div class="links">
+                <div class="link"><a href="../home.html">Home</a></div>
+                <div class="link"><a href="about.html">About</a></div>
+                <div class="link"><a href="skills.html">Skills</a></div>
+                <div class="link"><a href="projects.html">Projects</a></div>
+                <div class="link"><a href="hobby.html">Hobbies</a></div>
+                <div class="link"><a href="contact.html">Contact</a></div>
+              </div>
+              <div class="menu-icon" onclick="toggleMenu()">
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+              </div>
+          </div>
 
-                </div>
+          <nav class="mobile-menu">
+              <span class="close-icon" onclick="toggleMenu()">×</span>
+              <ul>
+                <li><a href="../home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="hobby.html">Hobbies</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+          </nav>
 
-            </div>
-            <div>
-                <div>
-                    <a href="home.html">Home</a>
-                    <a href="about.html">About</a>
-                    <a href="skills.html">Skills</a>
-                    <a href="projects.html">Projects</a>
-                    <a href="hobbies.html">Hobbies</a>
-                    <a href="contact.html">Contact</a>
-                </div>
-            </div>
-        </nav>
-      </header>
+    </header>
       <main>
 
         <!--About section-->
 
-        <section>
-            <div>
-                <h1><span>About me</span></h1>
-                <div>
-                    <div>
-                        <img src="/images/tsegaa.jpg" alt="">
+        <section class="about" id="about">
+            <div class="content">
+                <h1 class="title"><span>About me</span></h1>
+                <div class="about-details">
+                    <div class="left">
+                        <img src="/src/images/tsegaa.jpg" alt="">
                     </div>
-                    <div>
-                        <div></div>
-                        <p>They say that I'm a reliable and dedicated person 😌 well, they didn't lie. I'm passionate about combining my love for art with my technical skills to create visually appealing and innovative software solutions. I'm excited to apply my creative eye to designing user-friendly interfaces and developing software that not only solves problems but also delights users.<br>From being a total gaming addict as a kid, I've managed to turn my passion into a career! Now, instead of just wasting hours playing games, I'm actually creating them. Whether it's designing game apps, coding game bots, or building epic gaming websites, I'm always on the lookout for the next big thing in the world of gaming.</p>
-                        <div>
-                            <a href="/images/Tsega's_CV.png" download="Tsega's CV">Download CV</a>
+                    <div class="right">
+                        <div class="topic"></div>
+                        <p>People say I’m a dedicated person, and they’re not wrong 😌. I’m the type who can’t sleep unless I’ve cracked a problem...anything, really. I used to spend my days and nights gaming, but now I’ve traded that for creating games, which is way more fun.  When I’m not coding, you can find me sketching or jamming to music. I used to play football too, but now my ‘free time’ is more like a rare gem, so that’s on hold. I love chatting and exchanging thoughts on anything under the sun, and I’m all ears for other people’s opinions!</p>
+                        <div class="button">
+                            <a href="../src/MyCV.pdf" download="Tsega's CV">Download CV</a>
                         </div>
                     </div>
                 </div>
@@ -66,11 +70,13 @@
       <!--footer section-->
 
       <footer>
-        <div><span>Created By
-            <a href="#">Tsega Ephrem</a>
-            |&#169;2024 All Rights Reserved.
-          </span>
+        <div class="text">
+            <span>Created By
+                <a href="#">Tsega Ephrem</a>
+                |&#169;2024 All Rights Reserved.
+            </span>
         </div>
-      </footer>
+    </footer>
+     <script src="script.js"></script>
     </body>
 </html>

@@ -43,27 +43,39 @@
           </nav>
 
     </header>
-    <main>
+      <main>
 
-      <!--Contact me-->
-
-      <section class="contact" id="contact">
-          <div class="title"><span>Message me</span></div>
-          <form id="contact-form">
-            <div class="input-group">
-                <div class="input-box">
-                    <input type="text" name="name" placeholder="Full Name" id="nameInput" required>
-                    <input type="text" name="subject" placeholder="Subject" id="messageInput" required>
+       <!--hobbies section-->
+       <section class="hobbies" id="sketches">
+        <div class="content">
+            <h1 class="title"><span>My hobbies</span></h1>
+            <p> I know you’re probably bored of my educational stuff and projects 😁, so let’s take a break! One of my favorite hobbies is sketching with a pen. It’s a great way to learn how to correct mistakes without an eraser; you just add something to balance it out, and suddenly that ‘mistake’ becomes a beautiful part of the piece(bruh I'm not taking about sketches). When I’m feeling creative (or just plain bored like you are now), I whip out my sketchbook and let my imagination run wild. So, kick back and enjoy some of the sketches I made during those moments! 🖌🎨</p>
+            <div class="slider">
+                <div class="slides">
+                    <!-- Slide images -->
+                    <div class="slide">
+                      <img src="../src/images/sld1.jpg" alt="Image 1">
+                  </div>
+                    <div class="slide">
+                        <img src="../src/images/sld2.jpg" alt="Image 2">
+                    </div>
+                    <div class="slide">
+                        <img src="../src/images/sld3.jpg" alt="Image 3">
+                    </div>
+                    <div class="slide">
+                        <img src="../src/images/sld4.jpg" alt="Image 4">
+                    </div>
+                    <div class="slide">
+                        <img src="/src/images/sld5.jpg" alt="Image 5">
+                    </div>
                 </div>
+                <!-- Navigation buttons -->
+                <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                <button class="next" onclick="moveSlide(1)">&#10095;</button>
             </div>
-            <div class="input-group-2">
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
-                <input type="submit" value="Send Message" class="btn">
-            </div>
-        </form>
-      </section>
-
-    </main>
+        </div>
+    </section>
+      </main>
 
       <!--footer section-->
 
