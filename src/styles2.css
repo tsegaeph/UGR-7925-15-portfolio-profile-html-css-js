@@ -742,18 +742,19 @@ footer a:hover {
         top: 10px;
     }
     .contact .input-group .input-box input{
-        width: 350px;
+        width: 400px;
         height: 60px;
         font-size: 1rem;
     }
     .contact .input-group-2 textarea{
-        width: 350px;
+        width: 400px;
         margin: 50px 0px 30px 30px;
         font-size: 1.2rem;
     }
     .input-group-2 .btn{
         margin-left: 60%;
     }
+}
 
 
 /* Phone landscape*/
@@ -820,138 +821,135 @@ footer a:hover {
     
 }
 /*Tablet portrait*/
-@media (min-width: 1025px) and (max-width:1300px){
-    .nav-container{
+@media (min-width: 1025px) and (max-width: 1300px) {
+    .nav-container {
         column-gap: 65%;
     }
-    .nav-container .logo{
+    .nav-container .logo {
         font-size: 3rem;
         margin-left: 5%;
     }
-    section .main-container{
+    section .main-container {
         display: block;
         margin: 0 auto;
     }
-
-    .nav-container .links{
+    .nav-container .links {
         display: none;
     }
-    .menu-icon{
+    .menu-icon {
         display: flex;
         width: 5%;
         height: 2.5rem;
-
     }
-    .content .title{
+    .content .title {
         margin: 0 auto;
         margin-top: 50px;
         font-size: 3rem;
     }
-    .main-container{
+    .main-container {
         width: 100%;
     }
-    
-    .main-container .image{
+    .main-container .image {
         width: 450px;
         height: 450px;
         margin: 0 auto;
-        margin-top: 100px;    
+        margin-top: 100px;
     }
-    .main-container .content{
-        margin: 80px 20px 0 90px ;
+    .main-container .content {
+        margin: 80px 20px 0 90px;
         width: 85%;
     }
-    .content .typewriter,h1{
+    .content .typewriter,
+    h1 {
         margin-left: 100px;
     }
-    .main-container .content p{
+    .main-container .content p {
         font-size: 25px;
         font-weight: 200;
-        text-align:justify;
+        text-align: justify;
     }
-    .social-links{
+    .social-links {
         margin-left: 150px;
         margin-top: 40px;
     }
-    .social-links i{
+    .social-links i {
         width: 81px;
         height: 81px;
         font-size: 2.5rem;
     }
-    section .title span{
+    section .title span {
         font-size: 40px;
     }
-    .about .about-details{
+    .about .about-details {
         display: block;
         width: 100%;
     }
-    .about .about-details .left{
+    .about .about-details .left {
         width: 100%;
         margin-top: 70px;
     }
-    .about .about-details .left img{
+    .about .about-details .left img {
         width: 370px;
         height: 370px;
     }
-    .about .about-details .right{
+    .about .about-details .right {
         margin-top: 70px;
         width: 100%;
     }
-    .right p{
+    .right p {
         font-size: 25px;
         font-weight: 200;
     }
-    .right .button{
+    .right .button {
         margin-top: 80px;
     }
-    .right .button a{
+    .right .button a {
         margin-left: 300px;
         font-size: 25px;
     }
-    .about .about-details .left img{
+    .about .about-details .left img {
         display: block;
         margin: 0 auto;
         border: 2px solid var(--main-color);
     }
-    footer .text{
+    footer .text {
         text-align: center;
-    
     }
-    .skills .skills-details{
+    .skills .skills-details {
         align-items: center;
         justify-content: center;
         flex-direction: column;
         margin-top: 40px;
     }
-    .skills-details .text{
+    .skills-details .text {
         width: 100%;
         margin-bottom: 50px;
         margin-top: 30px;
     }
-    .skills-details .text p{
-       font-size: 25px;
-       font-weight: 200;
+    .skills-details .text p {
+        font-size: 25px;
+        font-weight: 200;
     }
-    .skills-details .boxes{
+    .skills-details .boxes {
         justify-content: space-between;
         align-items: center;
-        width: 100%;;
+        width: 100%;
         column-gap: 10rem;
     }
-    .skills-details .boxes .topic{
+    .skills-details .boxes .topic {
         font-size: 50px;
     }
-    .projects .boxes{
+    .projects .boxes {
         display: block;
     }
-    .projects .boxes .box{
+    .projects .boxes .box {
         margin: 70px auto;
         height: 400px;
     }
-    .projects .boxes .box .topic{
+    .projects .boxes .box .topic {
         font-size: 30px;
     }
-    .projects .boxes .box p{
+    .projects .boxes .box p {
         font-size: 25px;
         font-weight: 200;
     }
@@ -959,39 +957,37 @@ footer a:hover {
         width: 100%;
         height: 600px;
     }
-    .slides{
+    .slides {
         gap: 20px;
     }
     .slide img.enlarged {
         transform: scale(1.9);
     }
-
-    .contact form{
+    .contact form {
         display: block;
         margin-left: 30px;
         width: 300px;
     }
-    .contact .input-group .input-box input{
+    .contact .input-group .input-box input {
         width: 700px;
         height: 100px;
         font-size: 1.6rem;
     }
-    .contact .input-group-2 textarea{
+    .contact .input-group-2 textarea {
         width: 900px;
         height: 400px;
-        margin: 50px 0px 30px 30px;
+        margin: 50px 0 30px 30px;
         font-size: 1.6rem;
     }
-    .contact .input-group-2 input{
+    .contact .input-group-2 input {
         margin-left: 70%;
         width: 15rem;
         height: 4rem;
         font-size: 1.5rem;
     }
-    .contact .input-group .input-box{
+    .contact .input-group .input-box {
         position: relative;
         top: 10px;
     }
-
-}}
+}
 
